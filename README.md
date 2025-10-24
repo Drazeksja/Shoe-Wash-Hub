@@ -48,6 +48,14 @@ Proyek ini dibuat untuk mempermudah pengelolaan layanan cuci sepatu secara digit
 | PUT    | `/api/shoes/:id` | Memperbarui data sepatu         | 
 | DEL    | `/api/shoes/:id` | Menghapus data sepatu           | 
 
+![alt text] (https://github.com/Drazeksja/Shoe-Wash-Hub/blob/main/POST.png?raw=true)
+
+![alt text] (https://github.com/Drazeksja/Shoe-Wash-Hub/blob/main/GET.png?raw=true)
+
+![alt text] (https://github.com/Drazeksja/Shoe-Wash-Hub/blob/main/PUT.png?raw=true)
+
+![alt text] (https://github.com/Drazeksja/Shoe-Wash-Hub/blob/main/DELETE.png?raw=true)
+
 ---
 
 ## Alur Kerja API
@@ -70,6 +78,8 @@ Proyek ini dibuat untuk mempermudah pengelolaan layanan cuci sepatu secara digit
 ---
 
 ## Link Deploy
+
+![alt text] (https://github.com/Drazeksja/Shoe-Wash-Hub/blob/main/runningvercel.png?raw=true)
 
 Deployment
 shoe-wash-2kt0lvfaj-pwijaya928s-projects.vercel.app
@@ -96,4 +106,5 @@ Node.js & Express.js – Backend API
 Supabase – Database & Auth
 Vercel – Deployment Platform
 Markdown template – Inspired by clean GitHub README patterns
+
 

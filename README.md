@@ -79,7 +79,7 @@ Proyek ini dibuat untuk mempermudah pengelolaan layanan cuci sepatu secara digit
 
 ## Link Deploy
 
-![alt text] (https://github.com/Drazeksja/Shoe-Wash-Hub/blob/main/runningvercel.png?raw=true)
+<img width="651" height="524" alt="Image" src="https://github.com/user-attachments/assets/1a163770-744f-4d4d-a756-cc72abd98f47" />
 
 Deployment
 shoe-wash-2kt0lvfaj-pwijaya928s-projects.vercel.app
@@ -106,5 +106,6 @@ Node.js & Express.js – Backend API
 Supabase – Database & Auth
 Vercel – Deployment Platform
 Markdown template – Inspired by clean GitHub README patterns
+
 
 

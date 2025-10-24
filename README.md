@@ -40,93 +40,73 @@ Proyek ini dibuat untuk mempermudah pengelolaan layanan cuci sepatu secara digit
 
 ## 🔌 Endpoint API - `/api/shoes`
 
-| Method | Endpoint           | Deskripsi                       | Body (jika ada) | Response |
-|--------|------------------|---------------------------------|-----------------|----------|
-| GET    | `/api/shoes`      | Menampilkan semua data sepatu   | -               | ```json
-{
-  "id": 1,
-  "customer_name": "Putra Wijaya",
-  "category_name": "Sneakers",
-  "brand": "Adidas Superstar",
-  "color": "Putih",
-  "status": "Diproses",
-  "price": 45000,
-  "received_at": "2025-10-24T02:00:00.000Z"
-}
-``` |
-| POST   | `/api/shoes`      | Menambahkan data sepatu baru    | ```json
-{
-  "category_name": "Sneakers",
-  "customer_name": "Putra Wijaya",
-  "brand": "Adidas Superstar",
-  "color": "Putih",
-  "status": "Diproses",
-  "price": 45000
-}
-``` | ```json
-{
-  "message": "Data sepatu berhasil ditambahkan",
-  "data": {
-    "id": 1,
-    "category_id": 2,
-    "customer_id": 1,
-    "brand": "Adidas Superstar",
-    "color": "Putih",
-    "status": "Diproses",
-    "price": 45000,
-    "received_at": "2025-10-24T02:00:00.000Z"
-  }
-}
-``` |
-| PUT    | `/api/shoes/:id`  | Memperbarui data sepatu        | ```json
-{
-  "category_name": "Sneakers",
-  "customer_name": "Putra Wijaya",
-  "brand": "Nike Air Force 1",
-  "color": "Putih",
-  "status": "Selesai",
-  "price": 55000
-}
-``` | ```json
-{
-  "message": "Data sepatu berhasil diperbarui",
-  "data": {
-    "id": 1,
-    "brand": "Nike Air Force 1",
-    "color": "Putih",
-    "status": "Selesai",
-    "price": 55000
-  }
-}
-``` |
-| DELETE | `/api/shoes/:id`  | Menghapus data sepatu          | -               | ```json
-{
-  "message": "Data sepatu berhasil dihapus"
-}
-``` |
+| Method | Endpoint         | Deskripsi                       |
+|--------|------------------|---------------------------------|
+| GET    | `/api/shoes`     | Menampilkan semua data sepatu   | 
+| POST   | `/api/shoes`     | Menambahkan data sepatu baru    | 
+| PUT    | `/api/shoes/:id` | Memperbarui data sepatu         | 
+| DEL    | `/api/shoes/:id` | Menghapus data sepatu           | 
 
+🗂️ Struktur Folder Proyek
+shoe-wash-hub/
+├── controllers/
+│   ├── categoryController.js
+│   ├── customerController.js
+│   └── shoeController.js
+├── routes/
+│   ├── categoryRoutes.js
+│   ├── customerRoutes.js
+│   └── shoeRoutes.js
+├── config/
+│   └── supabaseClient.js
+├── index.js
+├── package.json
+└── README.md
 
-## Struktur Data
+Instalasi & Menjalankan API
 
-### Categories
-- id: Primary key
-- name: Nama kategori sepatu
+1️⃣ Clone Repository
 
-### Customers
-- id: Primary key
-- name: Nama pelanggan
-- phone: Nomor telepon
-- address: Alamat pelanggan
+git clone https://github.com/username/shoe-wash-hub.git
+cd shoe-wash-hub
 
-### Shoes
-- id: Primary key
-- customer_id: Relasi ke Customers
-- category_id: Relasi ke Categories
-- brand: Merek sepatu
-- color: Warna sepatu
-- status: Menunggu / Diproses / Selesai
-- price: Harga layanan
-- received_at: Tanggal diterima
-- finished_at: Tanggal selesai
+2️⃣ Install Dependencies
 
----
+npm install
+
+3️⃣ Konfigurasi Supabase
+
+Buat file .env:
+
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_KEY=your-anon-key
+PORT=4000
+
+4️⃣ Jalankan Server
+API berjalan di: http://localhost:4000
+
+5️⃣ Test API
+
+Gunakan Postman atau Thunder Client untuk GET, POST, PUT, DELETE.
+
+🚀 Link Deploy
+ajajj
+Vercel Deployment
+
+👨‍💻 Developer
+
+Nama: Hafizh Ridha Putra Wijaya
+
+Project: Praktikum PPB Modul 1 Responsi – API Shoe Wash Hub
+
+Tech Stack: Node.js, Express.js, Supabase, Vercel
+
+"Clean shoes, clean code, clean service."
+Shoe Wash Hub – Powered by Supabase & Node.js
+
+📜 Credit
+
+Node.js & Express.js – Backend API
+Supabase – Database & Auth
+Vercel – Deployment platform
+Markdown template – Inspired by clean GitHub README patterns

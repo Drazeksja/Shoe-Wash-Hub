@@ -48,13 +48,13 @@ Proyek ini dibuat untuk mempermudah pengelolaan layanan cuci sepatu secara digit
 | PUT    | `/api/shoes/:id` | Memperbarui data sepatu         | 
 | DEL    | `/api/shoes/:id` | Menghapus data sepatu           | 
 
-![alt text] (https://github.com/Drazeksja/Shoe-Wash-Hub/blob/main/POST.png?raw=true)
+<img width="1918" height="1130" alt="Image" src="https://github.com/user-attachments/assets/25d885b1-5647-4298-80c0-2b854e033ecc" />
 
-![alt text] (https://github.com/Drazeksja/Shoe-Wash-Hub/blob/main/GET.png?raw=true)
+<img width="1919" height="1124" alt="Image" src="https://github.com/user-attachments/assets/fc8e3cbd-d667-46ee-b264-ea85a10c0858" />
 
-![alt text] (https://github.com/Drazeksja/Shoe-Wash-Hub/blob/main/PUT.png?raw=true)
+<img width="1918" height="1127" alt="Image" src="https://github.com/user-attachments/assets/0160e930-1e64-47cc-b668-2d0ab82236ec" />
 
-![alt text] (https://github.com/Drazeksja/Shoe-Wash-Hub/blob/main/DELETE.png?raw=true)
+<img width="1911" height="1118" alt="Image" src="https://github.com/user-attachments/assets/3db7cf78-8315-4630-8ed4-e59097bf71cc" />
 
 ---
 
@@ -102,10 +102,13 @@ Shoe Wash Hub – Powered by Supabase & Node.js
 
 ## Credit
 
+<img width="1080" height="1080" alt="Image" src="https://github.com/user-attachments/assets/4f26f1ea-118c-4e27-8017-768bb1c28684" />
+
 Node.js & Express.js – Backend API
 Supabase – Database & Auth
 Vercel – Deployment Platform
 Markdown template – Inspired by clean GitHub README patterns
+
 
 
 

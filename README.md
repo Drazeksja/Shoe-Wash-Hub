@@ -1,6 +1,7 @@
 # Shoe Wash Hub API 👟
 
-![Shoe Wash Hub](https://img.shields.io/badge/Shoe_Wash_Hub-API-blue) 
+![Shoe Wash Hub](https://img.shields.io/badge/Shoe_Wash_Hub-API-blue)
+
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-green)](https://nodejs.org/)  
 [![Express](https://img.shields.io/badge/Express-4.x-lightgrey)](https://expressjs.com/)  
 [![Supabase](https://img.shields.io/badge/Supabase-1.x-blueviolet)](https://supabase.com/)  
@@ -70,7 +71,11 @@ Proyek ini dibuat untuk mempermudah pengelolaan layanan cuci sepatu secara digit
 
 ## Link Deploy
 
-Vercel Deployment
+Deployment
+shoe-wash-2kt0lvfaj-pwijaya928s-projects.vercel.app
+
+Domains
+shoe-wash-hub.vercel.app
 
 ---
 
@@ -91,3 +96,4 @@ Node.js & Express.js – Backend API
 Supabase – Database & Auth
 Vercel – Deployment Platform
 Markdown template – Inspired by clean GitHub README patterns
+
